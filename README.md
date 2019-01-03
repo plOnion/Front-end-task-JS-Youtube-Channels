@@ -57,16 +57,3 @@ $ npm start
 ```
 
 Server address will appear in the terminal.
-
-## How to deliver your solution
-
-*   Create a private repository on [bitbucket.org](https://bitbucket.org)
-    
-*   Put original, unchanged content of this task in _master_ branch. Put your solution in a different branch.
-    
-*   Create a pull request from the branch with your solution to _master_ branch in your repository. 
-    We will go through it and comment your work based on it.
-
-*   Allow `allegrotech` user to view your repository and add it as a pull request reviewer. 
-    
-Good luck!
