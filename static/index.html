@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <title>JavaScript Youtube Channels</title>
+        <link rel="stylesheet" type="text/css" href="vendor.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+                crossorigin="anonymous"></script>
+    </head>
+    <body class="wrapper">
+        <header class="wrapper__header">
+            <h1 class="header"><span class="header__js-logo">JS</span> Channels</h1>
+        </header>
+        <aside class="wrapper__aside">
+            <div class="sort">
+                <h3 class="sort__header">Sort channels by:</h3>
+                <ul class="sort__options">
+                    <li>
+                        <input class="choice choice--radio" name="sort" type="radio" value="titleSort" id="sort-title">
+                        <label class="choice__label" for="sort-title">title</label>
+                    </li>
+                    <li>
+                        <input class="choice choice--radio" name="sort" type="radio" value="subsSort" id="sort-subscribers">
+                        <label class="choice__label" for="sort-subscribers">subscribers</label>
+                    </li>
+                    <li>
+                        <input class="choice choice--radio" name="sort" type="radio" value="videoSort" id="sort-videos">
+                        <label class="choice__label" for="sort-videos">videos</label>
+                    </li>
+                    <li>
+                        <input class="choice choice--radio" name="sort" type="radio" value="viewSort" id="sort-views">
+                        <label class="choice__label" for="sort-views">views</label>
+                    </li>
+                </ul>
+                <button class="button">Clear</button>
+            </div>
+        </aside>
+        <div class="wrapper__filter">
+            <div class="filter">
+                <input class="filter__input" type="text" placeholder="filter channels...">
+            </div>
+        </div>
+        <main class="wrapper__main js-content">
+        </main>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
