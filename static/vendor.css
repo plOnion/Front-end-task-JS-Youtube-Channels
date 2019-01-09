@@ -226,7 +226,7 @@ button:-moz-focusring {
   padding-left: 1em;
 }
 
-.channel{
+.main__channel{
   display: flex;
   display: -ms-flex;
   justify-content: center;
@@ -235,26 +235,31 @@ button:-moz-focusring {
   background: white;
 }
 
-.channel_logo{
+.channel__logo{
   border-radius: 50%;
   margin: 5px;
   border: 2px solid #eceff1;
 }
 
-.channel_stats{
+.channel__stats{
   display: flex;
   justify-content: space-around;
   width: 100%;
   padding: 10px 0;
+  text-align: center;
 }
 
-.channel_stats_description{
+.stats__description{
   color: #767676;
   font-size: 0.7em;
 }
 
-.center{
-  text-align: center;
+.hide{
+  display: none;
+}
+
+.show{
+  display: ;
 }
 
 .bold{
