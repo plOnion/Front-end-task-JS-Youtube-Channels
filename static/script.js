@@ -36,15 +36,15 @@ $(function () {
             radio.addEventListener('change', changeHandler);
         });
 
-        channelSearch.addEventListener('input', function () {
+        channelSearch.addEventListener('input', () => {
             search();
         });
-
-
+        
         button.addEventListener("click", () => {
-            $(".choice--radio").prop("checked", false);
+            [].forEach.call(radios, radio => {
+                radio.checked = false;
+            });
             channelSearch.value = "";
-
             clearList();
             showChannel(response);
         })
